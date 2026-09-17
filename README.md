@@ -13,7 +13,7 @@
 
 **auto_rapi** (SPECTRA JSON REPAIR - Ultimate Edition) adalah sebuah solusi berbasis Python yang dirancang untuk memuat, menganalisis, serta memulihkan struktur data JSON dan CSV yang tidak valid atau tidak terstruktur. Perkakas ini secara otomatis mendeteksi pola data (*data patterns*) dari skema khusus maupun generik untuk memudahkan pengolahan data berskala besar.
 
-Sistem ini dilengkapi dengan modul *auto-detection* cerdas yang memanfaatkan algoritma pembobotan skor penanda (*signature scoring algorithm*). Modul ini secara otomatis mengidentifikasi apakah struktur data yang dianalisis merupakan format Dapodik, BPJS, profil pengguna CSV, atau JSON generik tanpa memerlukan konfigurasi manual dari pengguna.
+Sistem ini dilengkapi dengan modul *auto-detection* cerdas yang memanfaatkan algoritma pembobotan skor penanda (*signature scoring algorithm*). Modul ini secara otomatis mengidentifikasi apakah struktur data yang dianalisis merupakan format profil pengguna CSV, atau JSON generik tanpa memerlukan konfigurasi manual dari pengguna.
 
 Dikembangkan dengan prinsip ketiadaan dependensi pihak ketiga (*zero-dependency*), **auto_rapi** dapat dijalankan dengan cepat di berbagai lingkungan sistem operasi. Aplikasi ini sangat cocok digunakan oleh administrator sistem, *data engineer*, dan pengembang aplikasi yang sering berurusan dengan pembersihan data (*data cleansing*) dan restrukturisasi berkas JSON.
 
@@ -21,7 +21,7 @@ Dikembangkan dengan prinsip ketiadaan dependensi pihak ketiga (*zero-dependency*
 
 ## Fitur
 
-* **Deteksi Skema Otomatis (*Auto-Detect Schema*)**: Mengidentifikasi tipe data secara otomatis berdasarkan sidik kunci (*key signatures*) untuk skema Dapodik, BPJS, CSV User, dan Generik.
+* **Deteksi Skema Otomatis (*Auto-Detect Schema*)**: Mengidentifikasi tipe data secara otomatis berdasarkan sidik kunci (*key signatures*) untuk skema CSV User, dan Generik.
 * **Penanganan Toleransi Enkoding (*Encoding Fault-Tolerance*)**: Memuat berkas JSON dengan mekanisme penanganan kesalahan karakter (*error handling*) guna mencegah kegagalan pemrosesan akibat *corrupted encoding*.
 * **Pembersihan dan Normalisasi Kunci**: Mengubah kunci skema data menjadi bentuk terstandarisasi untuk mempermudah *parsing* data lanjutan.
 * **Tampilan Terminal Berwarna (ANSI Colorized CLI)**: Menyediakan antarmuka baris perintah yang rapi, komunikatif, dan informatif menggunakan visualisasi warna ANSI.
