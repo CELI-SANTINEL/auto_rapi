@@ -71,8 +71,6 @@ Sistem mendeteksi skema data berdasarkan daftar kata kunci unik (*signature keys
 
 | Tipe Data | Kunci Penanda (*Signature Keys*) | Ambang Batas Skor |
 | :--- | :--- | :--- |
-| **Dapodik** | `nama`, `jenis_kelamin`, `nisn`, `rombel`, `tingkat` | Minimal 3 kecocokan |
-| **BPJS** | `nik`, `name`, `gender`, `birthdate`, `phone`, `address`, `district` | Minimal 3 kecocokan |
 | **CSV User** | `id`, `group`, `nickname`, `mobile`, `avatar`, `logintime` | Minimal 3 kecocokan |
 | **Generic** | Tidak memenuhi kriteria di atas | Default (0) |
 
@@ -158,4 +156,4 @@ Proyek ini didistribusikan di bawah lisensi **MIT License**. Lihat berkas `LICEN
 
 ---
 
-> Made with love by SPECTRA ENGINE
+> Brand SPECTRA
