@@ -3,7 +3,7 @@
 > Auto-generated backup by SPECTRA ENGINE
 
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
-![Backup](https://img.shields.io/badge/backup-17-09-2026_07-34-21-blue)
+![Backup](https://img.shields.io/badge/backup-17-09-2026_07-35-53-blue)
 ![Files](https://img.shields.io/badge/files-1-orange)
 ![Size](https://img.shields.io/badge/size-0.02MB-yellow)
 ![Language](https://img.shields.io/badge/language-Python-brightgreen)
@@ -14,8 +14,8 @@
 
 Repository ini di-backup otomatis oleh **SPECTRA ENGINE**.
 
-- Backup terakhir: 17-09-2026 07:34:21
-- Owner: CELI SANTINEL
+- Backup terakhir: 17-09-2026 07:35:53
+- Owner: Mr-python99
 - Email: anonymouseo0264839@gmail.com
 - Bahasa Utama: **Python** (100.0%)
 
@@ -56,7 +56,7 @@ auto_rapi/
 
 ```bash
 # Clone repository
-git clone https://github.com/CELI SANTINEL/auto_rapi.git
+git clone https://github.com/Mr-python99/auto_rapi.git
 
 # Masuk folder
 cd auto_rapi
@@ -75,9 +75,9 @@ Repository ini untuk **edukasi & research**. Gunakan dengan bijak!
 
 ## Author
 
-**CELI SANTINEL**
+**Mr-python99**
 
-- GitHub: [@CELI SANTINEL](https://github.com/CELI SANTINEL)
+- GitHub: [@Mr-python99](https://github.com/Mr-python99)
 - Email: anonymouseo0264839@gmail.com
 
 ---
